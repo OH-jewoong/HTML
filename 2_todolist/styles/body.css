@@ -1,0 +1,99 @@
+/**
+  <div class = "body">
+    <div class = "todo_list">
+      <input class="todo_checkbox" type="checkbox">
+      <div class ="word_block">
+        <p class ="todo_task"> 안녕하세요</p>
+      </div>
+      <div class = "todo_button">
+        <img src="./img/pen.svg" class = "writing_img">
+        <img src="./img/trash.svg" class = "deleting_img">
+      </div>
+
+    </div>
+*/
+
+.bodys{
+  position: fixed;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  
+}
+
+.todo_list{
+  width: 80vw;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  justify-content: space-between;
+
+  background-color: skyblue;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+
+.todo_checkbox{
+  position: relative;
+  left: 20px;
+  zoom:1.5;
+}
+
+.todo_checkbox:hover{
+  cursor: pointer;
+}
+
+
+.word_block{
+  position: relative;
+  /*max-width : calc(100%-200px);*/
+  left: 30px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-grow: 1;
+
+  margin-left: 15px;
+  margin-right: 80px
+
+}
+
+
+.todo_task{
+  font-size: 22px;
+  color:  black;
+  position: relative;
+  left: 0%;
+}
+
+
+.todo_button{
+  position: relative;
+  width: 70px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.todo_button img{
+  width: 25px;
+  height: 25px;
+}
+
+.button_border{
+  background-color: transparent;
+  border: none;
+  padding: 0px 10px 0px 0px;
+}
+
+.button_border:hover{
+  cursor: pointer;
+  opacity : 0.6;
+  
+}

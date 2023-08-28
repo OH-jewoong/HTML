@@ -1,0 +1,54 @@
+/*
+  <div class = "Header">
+    <div class ="app_name">
+      <p class= "word">Todos 앱</p>
+    </div>
+    <div class = "add_button">
+      <p class= "word">새로운TODO추가하기</p>
+    </div>
+  </div>*/
+
+.Header{
+
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 20px;
+  height: 40px;
+  width: 100vw;
+  font-size: 20px;
+
+}
+
+.Header div{
+  flex-wrap: nowrap;
+  background-color: transparent;
+}
+
+.app_name{
+  position: relative;
+  left: 20px;
+}
+
+.add_button{
+  position: relative;
+  right :20px;
+}
+
+.word{
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  transition: all 0.1s linear;
+}
+
+.word:hover{
+  cursor: pointer;
+  opacity : 0.6;
+}
+

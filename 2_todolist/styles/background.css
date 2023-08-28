@@ -1,0 +1,12 @@
+p{ 
+  margin-top : 0px;
+  margin-bottom : 0px;
+} 
+
+body{
+  min-height: 200px;
+  font-family: Roboto, Arial;
+  margin: 0;
+  background-color: pink;
+  color: white;
+}
