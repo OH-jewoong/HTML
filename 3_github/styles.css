@@ -1,0 +1,275 @@
+.body{
+  height :100%;
+  margin : 0px;
+  overflow: auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+}
+
+p{
+  margin : 0 0 0 0;
+}
+
+.finder_header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: #366AE6;
+}
+
+.finder_header p{
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 50%;
+  left : 20px;
+  translate: 0 -50%;
+}
+
+/*여까지가 헤더 --------------------------------------*/
+
+
+.search-box{
+  padding-left: 15px; 
+  margin : 60px 20px 20px 20px;
+  min-width: 785px;
+  /* position: fixed;
+  top: 60px;
+  left : 20px; */
+
+  width : calc(100% - 55px);
+  height : 140px;
+  border: 1px solid #E5E5E5 ;
+  border-radius: 10px;
+}
+
+.search-box h1{
+  margin: 10px 0px 10px 0px;
+}
+
+.search-box p{
+  margin-bottom: 15px;
+}
+
+.search-box input{
+  width : 600px;
+  height: 25px;
+  font-size: 20px;
+  border:1px solid #E5E5E5;
+  border-radius: 5px;
+
+}
+
+
+/*여까지가 서치박스 ----------------------------------------*/
+
+
+
+.profile-box{
+  margin :20px;
+  /* position : fixed;
+  top: 230px;
+  left : 20px; */
+  min-width: 800px;
+
+  height: 270px;
+  width : calc(100% - 40px);
+  border: 1px solid #E5E5E5 ;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.left-box{
+  position: relative;
+  left: 20px;
+  width: 200px;
+  height: calc(100% - 30px);
+  border: 1px solid #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.user-info{
+  width: 95%; 
+}
+
+.user-picture{
+  width: 190px;
+}
+
+
+.profile-button{
+  width: 180px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #366AE6;
+  border: none;
+}
+
+.website{
+  padding : 13px 48px 13px 48px;
+  color: white;
+  text-decoration-line: none;
+}
+
+.right-box{
+  /* position: absolute;
+  right: 20px; */
+  /* min-width: 430px; */
+  /* width:1000px; */
+  margin: 0px 30px 0px 30px;
+  height: calc(100% - 30px);
+  border: none;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.right-top{
+  /* position: absolute; */
+  /* top: 10px; */
+  margin: 7px;
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.singular-box{
+  padding :5px 10px 5px 10px;
+  position: relative;
+  margin-left: 8px;
+  border: none;
+  border-radius: 3px;
+  color:white;
+
+}
+
+.right-buttom{
+  /* position: absolute;
+  left : 5px;
+  top : 50px; */
+  width :100%;
+  height: 180px;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+}
+
+
+.spec-block{
+  width:100%;
+  height:25%;
+  border: 2px solid black;
+  margin:0px;
+  padding-left: 20px;
+}
+
+
+
+.user-setting{
+  margin: 15px 15px 25px 15px;
+  padding : 0px;
+} 
+
+
+
+
+
+
+
+
+/*여기까지가 셀프 박스 -------------------------*/
+
+.repo-box{
+  margin :20px;
+  /* position : fixed;
+  top: 520px;
+  left : 20px; */
+  min-width: 800px;
+  margin-bottom: 50px;
+  
+  width : calc(100% - 40px);
+  border: 1px solid #E5E5E5 ;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.repo-box h2{
+  margin: 10px 0 10px 10px;
+  font-weight: 900;
+}
+
+.repo-blocks{
+  position: relative;
+  
+  width : calc(100% -40px);
+  height : 70px;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.user-repo{
+  list-style:none;
+  padding : 0px 20px 0 20px
+}
+
+.hyper-repo{
+  /* position: relative;
+  left: 50px; */
+  margin-left: 50px;
+  font-size: 20px;
+  color: #4444ff;
+  text-decoration-line: none;
+
+}
+
+.repo-populate{
+  
+  margin-right: 200px;
+
+  
+  width : calc(100% -40px);
+  /* height : 60px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+
+/*여기까지가 레포---------------------------------*/
+
+.finder_footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px; 
+  background-color: #366AE6;  
+}
+
+.finder_footer p{
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
