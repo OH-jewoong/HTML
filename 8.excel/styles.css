@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  display: block;
+  margin: 0px 0px 10px 10px;
+  background-color: #179E37;
+  color: white;
+  border: none;
+  padding: 13px;
+
+  transition: 0.2s linear;
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#cellName{
+  margin: 15px 0px 5px 10px;
+}
+
+
+
+
+table {
+  margin: 0px 10px 0px 10px;
+  border-collapse: collapse;
+  width: 90%;
+  min-width: 800px;
+}
+
+table, th, td {
+  border: 2px solid #CBCBCB;
+}
+
+th, td {
+  height: 45px;
+  min-width: 8vw;
+  max-width: 9.4vw;
+  max-height: 50px;
+  text-align: center;
+  padding: 0px;
+
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+
+.top th, .color{
+  background-color: #D6D6D6;
+} 
+
+.click_box{
+  color: white;
+  background-color: #9FD0DF !important;  
+}
+
